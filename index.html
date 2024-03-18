@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center>
+    <h1>BULB PROJECT JS</h1>
+    <img src="./off.png" alt="bulb" id="b1" style="height: 400px;width: 400px;">
+    <input type="submit" value="ON" onclick="onbulb()">
+    <input type="submit" value="OFF" onclick="offbulb()">
+    </center>
+    <script>
+    function onbulb(){
+        document.getElementById("b1").src="on.png"
+    }
+    function offbulb(){
+        document.getElementById("b1").src="off.png"
+    }
+    </script>
+</body>
+</html>
